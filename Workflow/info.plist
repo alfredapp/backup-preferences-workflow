@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.vitor.backuppreferences</string>
+	<key>connections</key>
+	<dict>
+		<key>0241E1B3-DFBC-4C3C-BA8F-CA3DDFCB21CB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6B3844D-04FB-487E-8D2A-D3128500FFA8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>084676FF-E013-428E-9477-53AC6722265D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>73C84D19-9E32-40D3-8932-0510395B28C9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</key>
+		<array/>
+		<key>33BE8182-8474-4CF8-91D8-948821A9AE31</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4679003D-7510-4EE8-908F-E1A9058554D9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4279B682-1147-4D57-94E2-8A90B4E6F61F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>618F6905-2B4B-4579-90D4-0E9D375473AA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>45EB734E-8992-435D-BC55-359C816E1DF6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A43A3C48-5FC4-4F79-A111-B7B7F20C3849</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>FCA8352B-0147-4B43-8F44-7C504F697004</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9FE5EF8-C1ED-4CD2-BCC9-19C6F8EAE04E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>E3B71A34-3843-4DED-B1DA-C32D97CC9551</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4279B682-1147-4D57-94E2-8A90B4E6F61F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>498E3076-F46A-4821-BA37-B20674C1DDC3</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>33BE8182-8474-4CF8-91D8-948821A9AE31</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4679003D-7510-4EE8-908F-E1A9058554D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5201952E-FBB9-4F36-97DF-A2958AC3EE5F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5201952E-FBB9-4F36-97DF-A2958AC3EE5F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>52F25404-7C74-4A44-8EAD-06B43C6C96D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F779EF53-2FCD-45DF-A714-F847B5F83F91</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>52F25404-7C74-4A44-8EAD-06B43C6C96D5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5CD63DD8-3EF7-4CAD-84A1-8FFBD50A1DF0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D3CB316A-7C91-41BA-8038-68D8605758A8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6B53EA18-FD29-432E-AD11-7661473D399C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>70018CEA-CCB8-4EA0-8DE8-212DF85127DA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6F716EA5-B930-4FFB-A431-CD7B99CA6C19</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>084676FF-E013-428E-9477-53AC6722265D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>70018CEA-CCB8-4EA0-8DE8-212DF85127DA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45EB734E-8992-435D-BC55-359C816E1DF6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>73C84D19-9E32-40D3-8932-0510395B28C9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FE51398B-8C3F-4E86-91B1-50BDE091A539</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>28E8EDC6-E01D-4B09-8045-ADC9FFE218F2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8B0BC5A3-BBFA-4D50-8CAF-C543CE48B9D7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6B53EA18-FD29-432E-AD11-7661473D399C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9184D601-2D61-40E0-9D50-3E6DF755F1FE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>95E39DCF-574F-4F30-8A16-D721A2213FC7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>084676FF-E013-428E-9477-53AC6722265D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A43A3C48-5FC4-4F79-A111-B7B7F20C3849</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>70F163FE-EC94-4169-ABA4-3F29AC0EEE93</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AC20C218-7439-40DE-B5B5-251A92DEAE30</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6B53EA18-FD29-432E-AD11-7661473D399C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D233FBB6-340D-4D2F-AE73-318850F5256D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5CD63DD8-3EF7-4CAD-84A1-8FFBD50A1DF0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D3CB316A-7C91-41BA-8038-68D8605758A8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F716EA5-B930-4FFB-A431-CD7B99CA6C19</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>63F722FC-DA00-4F03-AC5D-3F42AEBFF5FC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>084676FF-E013-428E-9477-53AC6722265D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC20C218-7439-40DE-B5B5-251A92DEAE30</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E9FE5EF8-C1ED-4CD2-BCC9-19C6F8EAE04E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D4C9B54C-DF37-4A8D-A28B-7B88E4B11329</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F779EF53-2FCD-45DF-A714-F847B5F83F91</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>70A4D85C-6E26-4062-A2DE-C97212E1FCB2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>41D8FE37-AE13-41FB-9C34-F53CEC0F65AE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FE51398B-8C3F-4E86-91B1-50BDE091A539</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80FA939A-2693-468C-896E-A1E1319ACBE6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9184D601-2D61-40E0-9D50-3E6DF755F1FE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vítor Galvão</string>
+	<key>description</key>
+	<string>Create and restore Alfred Preferences backups</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Backup Preferences</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.alfredapp.com/help/advanced/sync/disable-sync/</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>70F163FE-EC94-4169-ABA4-3F29AC0EEE93</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>backup_prefs</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>8B0BC5A3-BBFA-4D50-8CAF-C543CE48B9D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>How to Reset Sync Folder</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>This Workflow works by backing up the Alfred Preferences in the default location, so syncing must be turned off.</string>
+				<key>title</key>
+				<string>Syncing Is Turned On</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>A43A3C48-5FC4-4F79-A111-B7B7F20C3849</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>alfredpreferences://navigateto/workflows&gt;workflow&gt;com.alfredapp.vitor.backuppreferences&gt;userconfig&gt;backup_time</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>D4C9B54C-DF37-4A8D-A28B-7B88E4B11329</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>SYNC_ON</string>
+						<key>outputlabel</key>
+						<string>Syncing On</string>
+						<key>uid</key>
+						<string>FCA8352B-0147-4B43-8F44-7C504F697004</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>INVALID_TIME</string>
+						<key>outputlabel</key>
+						<string>Invalid Time</string>
+						<key>uid</key>
+						<string>E3B71A34-3843-4DED-B1DA-C32D97CC9551</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>INVALID_COUNT</string>
+						<key>outputlabel</key>
+						<string>Invalid Count</string>
+						<key>uid</key>
+						<string>498E3076-F46A-4821-BA37-B20674C1DDC3</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Pass</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>45EB734E-8992-435D-BC55-359C816E1DF6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:start_keyword}</string>
+				<key>subtext</key>
+				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
+				<key>text</key>
+				<string>Backup Alfred Preferences</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+// Detect misconfigurations early
+function run() {
+  // Syncing is on
+  const defaultPrefs = "~/Library/Application Support/Alfred/Alfred.alfredpreferences"
+  const currentPrefs = $(envVar("alfred_preferences")).stringByAbbreviatingWithTildeInPath.js
+  if (defaultPrefs !== currentPrefs) return "SYNC_ON"
+
+  // Time is invalid
+  const time = envVar("backup_time").split(":").map(t =&gt; parseInt(t))
+  if (time.length != 2 || time[0] &lt; 0 || time[0] &gt; 23 || time[1] &lt; 0 || time[1] &gt; 59) return "INVALID_TIME"
+
+  // Count is invalid
+  const count = envVar("backup_count")
+  if (!/^\d+$/.test(count) || parseInt(count) &lt; 1) return "INVALID_COUNT"
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6B53EA18-FD29-432E-AD11-7661473D399C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Open Workflow Preferences</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Backup time must be in the 24-hour clock format:
+Insert a value between 00:00 and 23:59.</string>
+				<key>title</key>
+				<string>Invalid Backup Time</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>E9FE5EF8-C1ED-4CD2-BCC9-19C6F8EAE04E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>manual_backup</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>AC20C218-7439-40DE-B5B5-251A92DEAE30</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>70018CEA-CCB8-4EA0-8DE8-212DF85127DA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>arguments_number</key>
+					<string>{var:backup_count}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/argument-processing/argument.strip.trailing.x</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>9184D601-2D61-40E0-9D50-3E6DF755F1FE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>target_path</key>
+					<string>{var:backup_target}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/directory.children.sort</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>52F25404-7C74-4A44-8EAD-06B43C6C96D5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function run(argv) {
+  const fileManager = $.NSFileManager.defaultManager
+
+  argv.forEach(pathString =&gt; {
+    const pathURL = $.NSURL.alloc.initFileURLWithPath(pathString)
+    fileManager.trashItemAtURLResultingItemURLError(pathURL, undefined, undefined)
+  })
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>match_string</key>
+					<string>{var:backup_prefix}.*\.tgz$</string>
+					<key>regex</key>
+					<true/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/argument-processing/argument.matching</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>alfredpreferences://navigateto/workflows&gt;workflow&gt;com.alfredapp.vitor.backuppreferences&gt;userconfig&gt;backup_count</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>618F6905-2B4B-4579-90D4-0E9D375473AA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Open Workflow Preferences</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Version count must be a whole number greater than zero.</string>
+				<key>title</key>
+				<string>Invalid Version Count</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>4279B682-1147-4D57-94E2-8A90B4E6F61F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Backup Complete</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>70A4D85C-6E26-4062-A2DE-C97212E1FCB2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Setup
+readonly current_date="$(/bin/date '+%Y.%m.%d at %H%.%M')"
+readonly machine_name="$(/usr/sbin/scutil --get LocalHostName)"
+readonly output_file="${backup_target}/${backup_prefix}${machine_name} ${current_date}.tgz"
+
+/bin/mkdir -p "${backup_target}"
+
+# Compress
+/usr/bin/tar \
+  --directory "${HOME}/Library/Application Support/Alfred" \
+  --create --gzip --file "${output_file}" \
+  'Alfred.alfredpreferences'
+
+# Send backup path to be used in notification
+echo "${output_file}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5201952E-FBB9-4F36-97DF-A2958AC3EE5F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Checks
+if [[ -z "${alfred_workflow_bundleid}" ]]; then
+  echo 'Workflow is missing bundle identifier!' &gt;&amp;2
+  exit 1
+fi
+
+# Plist contents
+read -r -d '' plist_contents &lt;&lt;ENDPLIST
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+    &lt;key&gt;Label&lt;/key&gt;
+    &lt;string&gt;${alfred_workflow_bundleid}&lt;/string&gt;
+    &lt;key&gt;ProgramArguments&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;/usr/bin/osascript&lt;/string&gt;
+        &lt;string&gt;-l&lt;/string&gt;
+        &lt;string&gt;JavaScript&lt;/string&gt;
+        &lt;string&gt;-e&lt;/string&gt;
+        &lt;string&gt;
+          function run(argv) {
+            try {
+              const alfred = Application(&amp;quot;com.runningwithcrayons.Alfred&amp;quot;)
+              if (alfred.running()) alfred.runTrigger(argv[1], { inWorkflow: argv[0] })
+            } catch {
+              const fileManager = $.NSFileManager.defaultManager
+              const plistFile = fileManager.homeDirectoryForCurrentUser.path.js + &amp;quot;/Library/LaunchAgents/&amp;quot; + argv[0] + &amp;quot;.plist&amp;quot;
+              fileManager.removeItemAtPathError(plistFile, undefined)
+            }
+          }
+        &lt;/string&gt;
+        &lt;string&gt;${alfred_workflow_bundleid}&lt;/string&gt;
+        &lt;string&gt;backup_prefs&lt;/string&gt;
+    &lt;/array&gt;
+    &lt;key&gt;StartCalendarInterval&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;Hour&lt;/key&gt;
+        &lt;integer&gt;${clock1}&lt;/integer&gt;
+        &lt;key&gt;Minute&lt;/key&gt;
+        &lt;integer&gt;${clock2}&lt;/integer&gt;
+    &lt;/dict&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+ENDPLIST
+
+# Main
+readonly launchagents_dir="${HOME}/Library/LaunchAgents"
+readonly plist_file="${launchagents_dir}/${alfred_workflow_bundleid}.plist"
+
+if [[ -f "${plist_file}" ]]
+then
+  # Compare existing plist with time in configuration
+  readonly old_hour="$(/usr/libexec/PlistBuddy -c 'Print :StartCalendarInterval:Hour' "${plist_file}")"
+  readonly old_minute="$(/usr/libexec/PlistBuddy -c 'Print :StartCalendarInterval:Minute' "${plist_file}")"
+
+  # Exit early if nothing changed
+  [[ "${old_hour}" -eq "${clock1}" &amp;&amp; "${old_minute}" -eq "${clock2}" ]] &amp;&amp; exit 0
+
+  # Otherwise uninstall agent so it can be recreated
+  launchctl bootout "gui/$(id -u "${USER}")" "${plist_file}"
+  rm "${plist_file}"
+fi
+
+# Install agent
+mkdir -p "${launchagents_dir}"
+echo "${plist_contents}" &gt; "${plist_file}"
+launchctl bootstrap "gui/$(id -u "${USER}")" "${plist_file}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4679003D-7510-4EE8-908F-E1A9058554D9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:manual_backup}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Manual Backup</string>
+						<key>uid</key>
+						<string>41D8FE37-AE13-41FB-9C34-F53CEC0F65AE</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>F779EF53-2FCD-45DF-A714-F847B5F83F91</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>:</string>
+				<key>discardemptyarguments</key>
+				<false/>
+				<key>outputas</key>
+				<integer>0</integer>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>clock</string>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>custominputarg</key>
+				<string>{var:backup_time}</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>33BE8182-8474-4CF8-91D8-948821A9AE31</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Restore Preferences</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>This will trash your current preferences, replace them with the chosen version, and restart Alfred. It will take a few seconds to complete and shows a notification when done.</string>
+				<key>title</key>
+				<string>Restore Preferences?</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>6F716EA5-B930-4FFB-A431-CD7B99CA6C19</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>retry_restore</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>80FA939A-2693-468C-896E-A1E1319ACBE6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:restore_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Getting list of backups…</string>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function dirContents(path) {
+  return $.NSFileManager.defaultManager
+    .contentsOfDirectoryAtURLIncludingPropertiesForKeysOptionsError(
+      $.NSURL.alloc.initFileURLWithPath(path),
+      undefined,
+      $.NSDirectoryEnumerationSkipsHiddenFiles,
+      undefined
+    ).js?.map(p =&gt; p.path.js)
+}
+
+function run() {
+  const backupPrefix = envVar("backup_prefix")
+  const backupRegex = new RegExp(`${backupPrefix}.*\.tgz`)
+  const backupsDir = envVar("backup_target")
+  const backups = dirContents(backupsDir)?.filter(path =&gt; path.match(backupRegex))
+
+  // "undefined" means the directory does not exist
+  // "length zero" means it does not contain any matching files
+  if (backups === undefined || backups.length === 0) return JSON.stringify({ items: [{
+    title: "No Preference Backups Found",
+    subtitle: `Run "${envVar("start_keyword")}" to set up backups`
+  }]})
+
+  const sfItems = backups
+    .sort()
+    .toReversed()
+    .map(path =&gt; {
+      const objPath = $(path)
+
+      return {
+        title: objPath
+          .lastPathComponent
+          .stringByDeletingPathExtension.js
+          .replace(backupPrefix, ""),
+        subtitle: objPath.stringByAbbreviatingWithTildeInPath.js,
+        type: "file",
+        arg: path
+      }
+    })
+
+  return JSON.stringify({ items: sfItems })
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>List backups to restore a specific version</string>
+				<key>title</key>
+				<string>Restore Alfred Preferences</string>
+				<key>type</key>
+				<integer>7</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D233FBB6-340D-4D2F-AE73-318850F5256D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Set up
+readonly tmp_dir="$(mktemp -d)"
+trap 'rm -rf "${tmp_dir}"' EXIT
+
+# Extract backup to temporary directory
+/usr/bin/tar \
+  --directory "${tmp_dir}" \
+  --extract --gzip --file "${restore_from}"
+
+# Try to quit Alfred Preferences and abort if unable (e.g. editing an object)
+if ! /usr/bin/osascript -l JavaScript -e 'Application("com.runningwithcrayons.Alfred-Preferences").quit()'
+then
+  echo -n 'PREFERENCES_OPEN' # For Alfred's conditional
+  echo 'Could not quit Alfred Preferences' &gt;&amp;2 # For Alfred's debugger
+  exit 1
+fi
+
+# Quit Alfred
+/usr/bin/osascript -l JavaScript -e 'Application("com.runningwithcrayons.Alfred").quit()'
+
+# Trash old preferences
+/usr/bin/osascript -l JavaScript -e \
+  'function run(argv) { Application("Finder").delete(Path(argv[0])) }' \
+  "${alfred_preferences}"
+
+# Move backup to correct location
+/bin/mv "${tmp_dir}/Alfred.alfredpreferences" "${alfred_preferences}"
+
+# Start Alfred
+/usr/bin/osascript -l JavaScript -e 'Application("com.runningwithcrayons.Alfred").activate()'
+
+# Show success notification
+/usr/bin/osascript -l JavaScript -e \
+  'function run(argv) { Application("com.runningwithcrayons.Alfred").runTrigger(argv[0], { inWorkflow: argv[1], withArgument: argv[2] }) }' \
+  'restore_notification' \
+  "${alfred_workflow_bundleid}" \
+  "${restore_from}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>084676FF-E013-428E-9477-53AC6722265D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:confirm_restore}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Show Confirmation</string>
+						<key>uid</key>
+						<string>63F722FC-DA00-4F03-AC5D-3F42AEBFF5FC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Skip Confirmation</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>D3CB316A-7C91-41BA-8038-68D8605758A8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>restore_from</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5CD63DD8-3EF7-4CAD-84A1-8FFBD50A1DF0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>button1</key>
+				<string>Try Again</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>Make sure you are not editing something in Alfred Preferences and close them.</string>
+				<key>title</key>
+				<string>Could Not Quit Alfred Preferences</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.dialog</string>
+			<key>uid</key>
+			<string>FE51398B-8C3F-4E86-91B1-50BDE091A539</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>PREFERENCES_OPEN</string>
+						<key>outputlabel</key>
+						<string>Failed to Quit Alfred Preferences</string>
+						<key>uid</key>
+						<string>28E8EDC6-E01D-4B09-8045-ADC9FFE218F2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>73C84D19-9E32-40D3-8932-0510395B28C9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>retry_restore</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>95E39DCF-574F-4F30-8A16-D721A2213FC7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<true/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<true/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Restored Alfred Preferences</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>D6B3844D-04FB-487E-8D2A-D3128500FFA8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>restore_notification</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>0241E1B3-DFBC-4C3C-BA8F-CA3DDFCB21CB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Usage
+
+Generate a backup of your local Alfred Preferences via the `start backup` keyword. A macOS launchd agent will be loaded to do it daily at the time set in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/) (using the [24-hour clock format](https://en.wikipedia.org/wiki/24-hour_clock)). The number of versions to keep is likewise configurable.
+
+![Starting a backup](images/about/start.png)
+
+Restore a previous version with the `restore backup` keyword. It takes a few seconds to complete and restarts Alfred.
+
+![Listing backups to restore](images/about/restore.png)</string>
+	<key>uidata</key>
+	<dict>
+		<key>0241E1B3-DFBC-4C3C-BA8F-CA3DDFCB21CB</key>
+		<dict>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>905</real>
+		</dict>
+		<key>084676FF-E013-428E-9477-53AC6722265D</key>
+		<dict>
+			<key>note</key>
+			<string>Restore backup</string>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>650</real>
+		</dict>
+		<key>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</key>
+		<dict>
+			<key>note</key>
+			<string>Trash old backups without sound</string>
+			<key>xpos</key>
+			<real>1730</real>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>33BE8182-8474-4CF8-91D8-948821A9AE31</key>
+		<dict>
+			<key>note</key>
+			<string>Split clock time</string>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>425</real>
+		</dict>
+		<key>4279B682-1147-4D57-94E2-8A90B4E6F61F</key>
+		<dict>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>45EB734E-8992-435D-BC55-359C816E1DF6</key>
+		<dict>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>4679003D-7510-4EE8-908F-E1A9058554D9</key>
+		<dict>
+			<key>note</key>
+			<string>launchd agent</string>
+			<key>xpos</key>
+			<real>880</real>
+			<key>ypos</key>
+			<real>395</real>
+		</dict>
+		<key>5201952E-FBB9-4F36-97DF-A2958AC3EE5F</key>
+		<dict>
+			<key>note</key>
+			<string>Make backup</string>
+			<key>xpos</key>
+			<real>1050</real>
+			<key>ypos</key>
+			<real>395</real>
+		</dict>
+		<key>52F25404-7C74-4A44-8EAD-06B43C6C96D5</key>
+		<dict>
+			<key>xpos</key>
+			<real>1235</real>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>5CD63DD8-3EF7-4CAD-84A1-8FFBD50A1DF0</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>665</real>
+		</dict>
+		<key>618F6905-2B4B-4579-90D4-0E9D375473AA</key>
+		<dict>
+			<key>xpos</key>
+			<real>880</real>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>6B53EA18-FD29-432E-AD11-7661473D399C</key>
+		<dict>
+			<key>note</key>
+			<string>Sanity checks</string>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+		<key>6F716EA5-B930-4FFB-A431-CD7B99CA6C19</key>
+		<dict>
+			<key>xpos</key>
+			<real>460</real>
+			<key>ypos</key>
+			<real>595</real>
+		</dict>
+		<key>70018CEA-CCB8-4EA0-8DE8-212DF85127DA</key>
+		<dict>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>70A4D85C-6E26-4062-A2DE-C97212E1FCB2</key>
+		<dict>
+			<key>xpos</key>
+			<real>1405</real>
+			<key>ypos</key>
+			<real>395</real>
+		</dict>
+		<key>70F163FE-EC94-4169-ABA4-3F29AC0EEE93</key>
+		<dict>
+			<key>xpos</key>
+			<real>880</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+		<key>73C84D19-9E32-40D3-8932-0510395B28C9</key>
+		<dict>
+			<key>xpos</key>
+			<real>840</real>
+			<key>ypos</key>
+			<real>680</real>
+		</dict>
+		<key>80FA939A-2693-468C-896E-A1E1319ACBE6</key>
+		<dict>
+			<key>xpos</key>
+			<real>1050</real>
+			<key>ypos</key>
+			<real>635</real>
+		</dict>
+		<key>8B0BC5A3-BBFA-4D50-8CAF-C543CE48B9D7</key>
+		<dict>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>9184D601-2D61-40E0-9D50-3E6DF755F1FE</key>
+		<dict>
+			<key>xpos</key>
+			<real>1565</real>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>95E39DCF-574F-4F30-8A16-D721A2213FC7</key>
+		<dict>
+			<key>xpos</key>
+			<real>465</real>
+			<key>ypos</key>
+			<real>765</real>
+		</dict>
+		<key>A43A3C48-5FC4-4F79-A111-B7B7F20C3849</key>
+		<dict>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>AC20C218-7439-40DE-B5B5-251A92DEAE30</key>
+		<dict>
+			<key>xpos</key>
+			<real>200</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>D233FBB6-340D-4D2F-AE73-318850F5256D</key>
+		<dict>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>635</real>
+		</dict>
+		<key>D3CB316A-7C91-41BA-8038-68D8605758A8</key>
+		<dict>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>655</real>
+		</dict>
+		<key>D4C9B54C-DF37-4A8D-A28B-7B88E4B11329</key>
+		<dict>
+			<key>xpos</key>
+			<real>880</real>
+			<key>ypos</key>
+			<real>150</real>
+		</dict>
+		<key>D6B3844D-04FB-487E-8D2A-D3128500FFA8</key>
+		<dict>
+			<key>xpos</key>
+			<real>230</real>
+			<key>ypos</key>
+			<real>905</real>
+		</dict>
+		<key>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</key>
+		<dict>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+		<key>E9FE5EF8-C1ED-4CD2-BCC9-19C6F8EAE04E</key>
+		<dict>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>F779EF53-2FCD-45DF-A714-F847B5F83F91</key>
+		<dict>
+			<key>note</key>
+			<string>Notify if manual backup</string>
+			<key>xpos</key>
+			<real>1275</real>
+			<key>ypos</key>
+			<real>425</real>
+		</dict>
+		<key>FE51398B-8C3F-4E86-91B1-50BDE091A539</key>
+		<dict>
+			<key>xpos</key>
+			<real>930</real>
+			<key>ypos</key>
+			<real>670</real>
+		</dict>
+		<key>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</key>
+		<dict>
+			<key>xpos</key>
+			<real>1405</real>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>start backups</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Set up periodic backups and force one at the current time.</string>
+			<key>label</key>
+			<string>Start Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>start_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>restore backups</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>List backups to restore a specific version.</string>
+			<key>label</key>
+			<string>Restore Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>restore_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string>Where all versions will be stored</string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Set to a cloud sync location to backup your settings online.</string>
+			<key>label</key>
+			<string>Backup Folder</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>backup_target</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>18:00</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Time to auto-start the backup, in 24-hour clock.</string>
+			<key>label</key>
+			<string>Backup Time</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>backup_time</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>8</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>How many backup versions to keep.</string>
+			<key>label</key>
+			<string>Version Count</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>backup_count</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Show confirmation before restoring preferences</string>
+			</dict>
+			<key>description</key>
+			<string>Restoring preferences restarts Alfred.</string>
+			<key>label</key>
+			<string>Confirm Restore</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>confirm_restore</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>backup_prefix</key>
+		<string>Alfred Backup </string>
+	</dict>
+	<key>version</key>
+	<string>2023.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/alfredapp/backup-preferences-workflow/</string>
+</dict>
+</plist>
