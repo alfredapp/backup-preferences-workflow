@@ -1749,7 +1749,7 @@ Restore a previous version with the `restore backup` keyword. It takes a few sec
 		<string>Alfred Backup </string>
 	</dict>
 	<key>version</key>
-	<string>2023.0</string>
+	<string>2023.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/backup-preferences-workflow/</string>
 </dict>
