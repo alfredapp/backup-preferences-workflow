@@ -334,6 +334,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D4C9B54C-DF37-4A8D-A28B-7B88E4B11329</key>
+		<array/>
 		<key>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</key>
 		<array>
 			<dict>
@@ -485,7 +487,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>alfredpreferences://navigateto/workflows&gt;workflow&gt;com.alfredapp.vitor.backuppreferences&gt;userconfig&gt;backup_time</string>
+				<string>alfredpreferences://navigateto/workflows&gt;workflow&gt;{const:alfred_workflow_uid}&gt;userconfig&gt;backup_time</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -557,27 +559,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:start_keyword}</string>
-				<key>subtext</key>
-				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
-				<key>text</key>
-				<string>Backup Alfred Preferences</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -619,6 +600,27 @@ function run() {
 			<string>6B53EA18-FD29-432E-AD11-7661473D399C</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:start_keyword}</string>
+				<key>subtext</key>
+				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
+				<key>text</key>
+				<string>Backup Alfred Preferences</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -714,6 +716,26 @@ Insert a value between 00:00 and 23:59.</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>match_string</key>
+					<string>{var:backup_prefix}.*\.tgz$</string>
+					<key>regex</key>
+					<true/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/argument-processing/argument.matching</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -744,26 +766,6 @@ Insert a value between 00:00 and 23:59.</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>match_string</key>
-					<string>{var:backup_prefix}.*\.tgz$</string>
-					<key>regex</key>
-					<true/>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/argument-processing/argument.matching</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>skipqueryencode</key>
@@ -773,7 +775,7 @@ Insert a value between 00:00 and 23:59.</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>alfredpreferences://navigateto/workflows&gt;workflow&gt;com.alfredapp.vitor.backuppreferences&gt;userconfig&gt;backup_count</string>
+				<string>alfredpreferences://navigateto/workflows&gt;workflow&gt;{const:alfred_workflow_uid}&gt;userconfig&gt;backup_count</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
