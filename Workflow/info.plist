@@ -559,6 +559,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:start_keyword}</string>
+				<key>subtext</key>
+				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
+				<key>text</key>
+				<string>Backup Alfred Preferences</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -600,27 +621,6 @@ function run() {
 			<string>6B53EA18-FD29-432E-AD11-7661473D399C</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:start_keyword}</string>
-				<key>subtext</key>
-				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
-				<key>text</key>
-				<string>Backup Alfred Preferences</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -716,26 +716,6 @@ Insert a value between 00:00 and 23:59.</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>match_string</key>
-					<string>{var:backup_prefix}.*\.tgz$</string>
-					<key>regex</key>
-					<true/>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/argument-processing/argument.matching</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -762,6 +742,26 @@ Insert a value between 00:00 and 23:59.</string>
 			<string>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>match_string</key>
+					<string>{var:backup_prefix}.*\.tgz$</string>
+					<key>regex</key>
+					<true/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/argument-processing/argument.matching</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1109,7 +1109,8 @@ function run() {
   // "length zero" means it does not contain any matching files
   if (backups === undefined || backups.length === 0) return JSON.stringify({ items: [{
     title: "No Preference Backups Found",
-    subtitle: `Run "${envVar("start_keyword")}" to set up backups`
+    subtitle: `Run "${envVar("start_keyword")}" to set up backups`,
+    valid: false
   }]})
 
   const sfItems = backups
