@@ -725,7 +725,7 @@ Insert a value between 00:00 and 23:59.</string>
   const fileManager = $.NSFileManager.defaultManager
 
   argv.forEach(pathString =&gt; {
-    const pathURL = $.NSURL.alloc.initFileURLWithPath(pathString)
+    const pathURL = $.NSURL.fileURLWithPath(pathString)
     fileManager.trashItemAtURLResultingItemURLError(pathURL, undefined, undefined)
   })
 }</string>
@@ -1092,7 +1092,7 @@ function envVar(varName) {
 function dirContents(path) {
   return $.NSFileManager.defaultManager
     .contentsOfDirectoryAtURLIncludingPropertiesForKeysOptionsError(
-      $.NSURL.alloc.initFileURLWithPath(path),
+      $.NSURL.fileURLWithPath(path),
       undefined,
       $.NSDirectoryEnumerationSkipsHiddenFiles,
       undefined
