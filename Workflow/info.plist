@@ -186,6 +186,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6BA48960-0520-4BE9-8669-50B57CD69D1B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D797CF9E-73D7-4B01-BFAE-FBEE45ED4C4E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6F716EA5-B930-4FFB-A431-CD7B99CA6C19</key>
 		<array>
 			<dict>
@@ -225,6 +238,19 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>28E8EDC6-E01D-4B09-8045-ADC9FFE218F2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>844818BB-A5CB-4F7D-B763-F23B5BF9FC25</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6BA48960-0520-4BE9-8669-50B57CD69D1B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -559,27 +585,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:start_keyword}</string>
-				<key>subtext</key>
-				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
-				<key>text</key>
-				<string>Backup Alfred Preferences</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -621,6 +626,27 @@ function run() {
 			<string>6B53EA18-FD29-432E-AD11-7661473D399C</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:start_keyword}</string>
+				<key>subtext</key>
+				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
+				<key>text</key>
+				<string>Backup Alfred Preferences</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -682,24 +708,6 @@ Insert a value between 00:00 and 23:59.</string>
 			<dict>
 				<key>tasksettings</key>
 				<dict>
-					<key>arguments_number</key>
-					<string>{var:backup_count}</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/argument-processing/argument.strip.trailing.x</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>9184D601-2D61-40E0-9D50-3E6DF755F1FE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
 					<key>target_path</key>
 					<string>{var:backup_target}</string>
 				</dict>
@@ -710,6 +718,44 @@ Insert a value between 00:00 and 23:59.</string>
 			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
 			<string>52F25404-7C74-4A44-8EAD-06B43C6C96D5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>match_string</key>
+					<string>{var:backup_prefix}.*\.tgz$</string>
+					<key>regex</key>
+					<true/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/argument-processing/argument.matching</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>arguments_number</key>
+					<string>{var:backup_count}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/argument-processing/argument.strip.trailing.x</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>9184D601-2D61-40E0-9D50-3E6DF755F1FE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -742,26 +788,6 @@ Insert a value between 00:00 and 23:59.</string>
 			<string>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>match_string</key>
-					<string>{var:backup_prefix}.*\.tgz$</string>
-					<key>regex</key>
-					<true/>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/argument-processing/argument.matching</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -808,21 +834,53 @@ Insert a value between 00:00 and 23:59.</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Backup Complete</string>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/finder.windows.new</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
-			<string>70A4D85C-6E26-4062-A2DE-C97212E1FCB2</string>
+			<string>D797CF9E-73D7-4B01-BFAE-FBEE45ED4C4E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:open_keyword}</string>
+				<key>subtext</key>
+				<string>Show preference backups in Finder</string>
+				<key>text</key>
+				<string>Open Alfred Preferences Backup Folder</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>844818BB-A5CB-4F7D-B763-F23B5BF9FC25</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:backup_target}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>6BA48960-0520-4BE9-8669-50B57CD69D1B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -952,6 +1010,27 @@ launchctl bootstrap "gui/$(id -u "${USER}")" "${plist_file}"</string>
 			<string>4679003D-7510-4EE8-908F-E1A9058554D9</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Backup Complete</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>70A4D85C-6E26-4062-A2DE-C97212E1FCB2</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1476,6 +1555,13 @@ Restore a previous version with the `restore backup` keyword. It takes a few sec
 			<key>ypos</key>
 			<real>180</real>
 		</dict>
+		<key>6BA48960-0520-4BE9-8669-50B57CD69D1B</key>
+		<dict>
+			<key>xpos</key>
+			<real>220</real>
+			<key>ypos</key>
+			<real>390</real>
+		</dict>
 		<key>6F716EA5-B930-4FFB-A431-CD7B99CA6C19</key>
 		<dict>
 			<key>xpos</key>
@@ -1517,6 +1603,13 @@ Restore a previous version with the `restore backup` keyword. It takes a few sec
 			<real>1050</real>
 			<key>ypos</key>
 			<real>635</real>
+		</dict>
+		<key>844818BB-A5CB-4F7D-B763-F23B5BF9FC25</key>
+		<dict>
+			<key>xpos</key>
+			<real>55</real>
+			<key>ypos</key>
+			<real>360</real>
 		</dict>
 		<key>8B0BC5A3-BBFA-4D50-8CAF-C543CE48B9D7</key>
 		<dict>
@@ -1580,6 +1673,13 @@ Restore a previous version with the `restore backup` keyword. It takes a few sec
 			<real>230</real>
 			<key>ypos</key>
 			<real>905</real>
+		</dict>
+		<key>D797CF9E-73D7-4B01-BFAE-FBEE45ED4C4E</key>
+		<dict>
+			<key>xpos</key>
+			<real>320</real>
+			<key>ypos</key>
+			<real>360</real>
 		</dict>
 		<key>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</key>
 		<dict>
@@ -1662,6 +1762,27 @@ Restore a previous version with the `restore backup` keyword. It takes a few sec
 			<string>textfield</string>
 			<key>variable</key>
 			<string>restore_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>open backups</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Open backup folder in finder.</string>
+			<key>label</key>
+			<string>Open Backups Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>open_keyword</string>
 		</dict>
 		<dict>
 			<key>config</key>
