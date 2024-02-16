@@ -563,6 +563,8 @@
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>{var:start_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
 				<key>text</key>
@@ -1136,6 +1138,8 @@ function run() {
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>List backups to restore a specific version</string>
 				<key>title</key>
