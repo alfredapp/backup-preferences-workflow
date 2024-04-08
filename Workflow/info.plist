@@ -32,8 +32,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</key>
-		<array/>
 		<key>33BE8182-8474-4CF8-91D8-948821A9AE31</key>
 		<array>
 			<dict>
@@ -246,7 +244,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</string>
+				<string>450B62AA-FC14-4CBC-8299-AD4BB6E1602A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -559,29 +557,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:start_keyword}</string>
-				<key>skipuniversalaction</key>
-				<true/>
-				<key>subtext</key>
-				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
-				<key>text</key>
-				<string>Backup Alfred Preferences</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -623,6 +598,29 @@ function run() {
 			<string>6B53EA18-FD29-432E-AD11-7661473D399C</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:start_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Creates a backup now and sets up daily unattended backups at {var:backup_time}</string>
+				<key>text</key>
+				<string>Backup Alfred Preferences</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DBC1BB9E-CF55-4493-A686-1EDD5FE0DC5B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -684,24 +682,6 @@ Insert a value between 00:00 and 23:59.</string>
 			<dict>
 				<key>tasksettings</key>
 				<dict>
-					<key>arguments_number</key>
-					<string>{var:backup_count}</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/argument-processing/argument.strip.trailing.x</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>9184D601-2D61-40E0-9D50-3E6DF755F1FE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
 					<key>target_path</key>
 					<string>{var:backup_target}</string>
 				</dict>
@@ -714,36 +694,6 @@ Insert a value between 00:00 and 23:59.</string>
 			<string>52F25404-7C74-4A44-8EAD-06B43C6C96D5</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>function run(argv) {
-  const fileManager = $.NSFileManager.defaultManager
-
-  argv.forEach(pathString =&gt; {
-    const pathURL = $.NSURL.fileURLWithPath(pathString)
-    fileManager.trashItemAtURLResultingItemURLError(pathURL, undefined, undefined)
-  })
-}</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>7</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -762,6 +712,24 @@ Insert a value between 00:00 and 23:59.</string>
 			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
 			<string>FF100DA6-1E92-4BDC-9700-4D0D09C7CEBD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>arguments_number</key>
+					<string>{var:backup_count}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/argument-processing/argument.strip.trailing.x</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>9184D601-2D61-40E0-9D50-3E6DF755F1FE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -789,6 +757,24 @@ Insert a value between 00:00 and 23:59.</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>use_finder</key>
+					<false/>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.trash</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>450B62AA-FC14-4CBC-8299-AD4BB6E1602A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>button1</key>
 				<string>Open Workflow Preferences</string>
 				<key>button2</key>
@@ -804,27 +790,6 @@ Insert a value between 00:00 and 23:59.</string>
 			<string>alfred.workflow.utility.dialog</string>
 			<key>uid</key>
 			<string>4279B682-1147-4D57-94E2-8A90B4E6F61F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Backup Complete</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>70A4D85C-6E26-4062-A2DE-C97212E1FCB2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -954,6 +919,27 @@ launchctl bootstrap "gui/$(id -u "${USER}")" "${plist_file}"</string>
 			<string>4679003D-7510-4EE8-908F-E1A9058554D9</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Backup Complete</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>70A4D85C-6E26-4062-A2DE-C97212E1FCB2</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1400,15 +1386,6 @@ Restore a previous version with the `restore backup` keyword. It takes a few sec
 			<key>ypos</key>
 			<real>650</real>
 		</dict>
-		<key>1946FBD5-0AB1-45C1-A6C3-70BEB2400D76</key>
-		<dict>
-			<key>note</key>
-			<string>Trash old backups without sound</string>
-			<key>xpos</key>
-			<real>1730</real>
-			<key>ypos</key>
-			<real>270</real>
-		</dict>
 		<key>33BE8182-8474-4CF8-91D8-948821A9AE31</key>
 		<dict>
 			<key>note</key>
@@ -1424,6 +1401,13 @@ Restore a previous version with the `restore backup` keyword. It takes a few sec
 			<real>665</real>
 			<key>ypos</key>
 			<real>305</real>
+		</dict>
+		<key>450B62AA-FC14-4CBC-8299-AD4BB6E1602A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1730</real>
+			<key>ypos</key>
+			<real>270</real>
 		</dict>
 		<key>45EB734E-8992-435D-BC55-359C816E1DF6</key>
 		<dict>
